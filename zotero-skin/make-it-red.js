@@ -44,7 +44,7 @@ MakeItRed = {
 		doc.getElementById('menu_viewPopup').appendChild(menuitem);
 		this.storeAddedElement(menuitem);
 
-		// Hide some items we don't want to show in the menu
+		// Hide some items we don't want to show in the main menu
 		[
 		'menu_addByIdentifier',
 		'menu_newCollection',
@@ -67,6 +67,51 @@ MakeItRed = {
 			let el = doc.getElementById(id);
 			if (el) el.hidden = true;
 		});
+
+		let newItemMenu = doc.getElementById('menu_newItem');
+		if (newItemMenu) {
+			let popup = newItemMenu.querySelector('menupopup');
+			if (popup) {
+				let itemsToHide = [
+				"Book",
+				"Book Section",
+				"Document",
+				"Journal Article",
+				"Newspaper Article",
+				"Audio Recording",
+				"Case",
+				"E-mail",
+				"Encyclopedia Article",
+				"Film",
+				"Forum Post",
+				"Hearing",
+				"Instant Message",
+				"Interview",
+				"Magazine Article",
+				"Manuscript",
+				"Map",
+				"Patent",
+				"Podcast",
+				"Preprint",
+				"Radio Broadcast",
+				"Report",
+				"Software",
+				"Standard",
+				"Statute",
+				"Thesis",
+				"TV Broadcast",
+				"Video Recording",
+				"Conference Paper",
+				"Dataset"
+			];
+				popup.addEventListener('popupshowing', function() {
+					itemsToHide.forEach(label => {
+						let item = this.querySelector(`[label="${label}"]`);
+						if (item) item.hidden = true;
+					});
+				});
+			}
+		}
 
 	},
 	
