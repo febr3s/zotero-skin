@@ -45,7 +45,7 @@ MakeItRed = {
 		this.storeAddedElement(menuitem);
 
 		    // Rename "Tools" menu
-		let helpMenu = doc.getElementById('menu_Help');
+		let helpMenu = doc.getElementById('menu_addByIdentifier');
 			if (helpMenu) helpMenu.hidden = true;
 		
 	},

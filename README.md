@@ -31,7 +31,7 @@ All original code is used under the **Mozilla Public License 2.0**. No additiona
 
 Zotero 7/8 are built on **Firefox ESR 115**. Mozilla’s `web-ext` tool requires a valid `gecko` block in `manifest.json`. Many Zotero plugins only declare a `zotero` block, causing a validation error.
 
-Open `src-2.0/manifest.json` (or your plugin’s source folder) and ensure the `applications` object contains both `gecko` and `zotero` entries:
+Open `zotero-skin/manifest.json` (or your plugin’s source folder) and ensure the `applications` object contains both `gecko` and `zotero` entries:
 
 ```json
 {
@@ -62,17 +62,17 @@ Navigate to the root of your repository in a terminal. Run the appropriate `npx 
 
 ### Linux
 ```bash
-npx web-ext run --source-dir ./src-2.0 --firefox="/usr/bin/zotero"
+npx web-ext run --source-dir ./zotero-skin --firefox="/usr/bin/zotero"
 ```
 
 ### macOS
 ```bash
-npx web-ext run --source-dir ./src-2.0 --firefox="/Applications/Zotero.app/Contents/MacOS/zotero"
+npx web-ext run --source-dir ./zotero-skin --firefox="/Applications/Zotero.app/Contents/MacOS/zotero"
 ```
 
 ### Windows
 ```bash
-npx web-ext run --source-dir ./src-2.0 --firefox="C:\Program Files\Zotero\zotero.exe"
+npx web-ext run --source-dir ./zotero-skin --firefox="C:\Program Files\Zotero\zotero.exe"
 ```
 
 *Adjust `--source-dir` if your `manifest.json` is in a different subfolder (e.g., `./src`).*
@@ -91,8 +91,16 @@ Use Zotero’s built‑in **Run JavaScript** tool (`Tools → Developer → Run 
 
 **List all main menu IDs:**
 ```javascript
-let menus = document.querySelectorAll('#main-menubar > menu');
-Array.from(menus).map(m => m.id).join('\n');
+let menubar = document.getElementById("main-menubar");
+let result = [];
+if (menubar) {
+    let menuNodes = menubar.querySelectorAll("menu, menuitem");
+    for (let node of menuNodes) {
+        let id = node.getAttribute("id");
+        if (id) result.push(id);
+    }
+}
+result.join("\n");
 ```
 
 **List all toolbar button IDs:**
@@ -157,7 +165,7 @@ Add `Zotero.debug("Your message")` inside your code, then open **Tools → Devel
 
 ```
 .
-├── src-2.0/                 # Plugin source (based on make-it-red)
+├── zotero-skin                 # Plugin source (based on make-it-red)
 │   ├── bootstrap.js
 │   ├── chrome.manifest
 │   ├── locale/
