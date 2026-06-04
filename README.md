@@ -1,34 +1,72 @@
-Here is a complete README for your repository, integrating today's discoveries with the `web-ext` workflow you provided.
-
 ```markdown
-# Zotero 7/8 Plugin Development Sandbox
+<!-- markdownlint-disable MD033 -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zotero/make-it-red/main/icon.png" width="128" height="128" alt="Plugin Icon">
+</p>
 
-This repository documents a reliable, hot‑reloading development environment for Zotero plugins (versions 7 and 8). It bypasses the legacy “proxy file” method, which often fails due to Zotero’s aggressive extension caching, and instead uses Mozilla’s `web-ext` CLI tool to inject the plugin directly into a temporary Zotero profile with automatic reloading.
+<h1 align="center">Zotero UI Customization Sandbox</h1>
 
-## What We Achieved
+<p align="center">
+  <strong>Live‑reloading development environment for Zotero 7/8/9</strong><br>
+  Forked from the official <code>make-it-red</code> sample plugin.
+</p>
 
-- **Confirmed a working baseline** – The official `make-it-red` plugin (Zotero 7‑compatible, `src-2.0`) runs successfully on Zotero 8 (and 9).
-- **Discovered a reliable way to get UI element IDs** – Using Zotero’s built‑in **Run JavaScript** tool (`Tools → Developer → Run JavaScript`), we can query the live interface without guessing or inspecting source code.
-- **Verified correct syntax for UI manipulation** – Inside the `addToWindow(window)` function of `make-it-red.js`, we can:
-  - Rename a menu: `toolsMenu.setAttribute('label', 'New Name')`
-  - Hide a menu or button: `helpMenu.hidden = true`
-- **Learned how to debug** – Use `Zotero.debug()` and check the **Error Console** (`Tools → Developer → Error Console`).
+<p align="center">
+  <a href="https://www.zotero.org/">
+    <img src="https://img.shields.io/badge/Zotero-7%20%7C%208%20%7C%209-blue?logo=zotero&logoColor=white" alt="Zotero Versions">
+  </a>
+  <a href="https://opensource.org/licenses/MPL-2.0">
+    <img src="https://img.shields.io/badge/License-MPL%202.0-brightgreen" alt="License: MPL 2.0">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions">
+    <img src="https://img.shields.io/badge/Built%20with-web--ext-green?logo=firefox" alt="Built with web-ext">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs Welcome">
+  </a>
+</p>
 
-## Prerequisites
+---
 
-- [Node.js](https://nodejs.org/) (provides the `npx` package runner)
-- Zotero 7 or Zotero 8 installed locally
+## 📌 Overview
 
-## 1. Manifest Validation Patch
+This repository provides a **reliable, hot‑reloading development sandbox** for Zotero plugins (versions 7, 8, and 9). It bypasses the legacy “proxy file” method – which often fails due to Zotero's aggressive extension caching – and uses Mozilla’s `web-ext` CLI tool to inject the plugin into a temporary Zotero profile with automatic reloading on file changes.
 
-Zotero 7/8 are built on Firefox ESR 115. Mozilla’s `web-ext` tool requires a valid `gecko` block in `manifest.json`. Many Zotero plugins only declare a `zotero` block, which causes a validation error.
+**What this sandbox gives you:**
+- ✅ A working baseline (the official `make-it-red` plugin runs without errors)
+- ✅ A reliable method to discover UI element IDs using Zotero’s built‑in **Run JavaScript** tool
+- ✅ Verified syntax for renaming and hiding menus/buttons inside `addToWindow(window)`
+- ✅ Real‑time debugging via `Zotero.debug()` and the **Error Console**
 
-Open your `manifest.json` (e.g., `src-2.0/manifest.json`) and **add** a `gecko` object inside `applications` (or `browser_specific_settings`). The `id` must match your plugin’s Zotero ID.
+---
+
+## 🧬 Origin & Acknowledgements
+
+This work is a **direct clone** of the official Zotero sample plugin:  
+[`zotero/make-it-red`](https://github.com/zotero/make-it-red) (specifically the `src-2.0` folder).
+
+**Modifications and this documentation were developed with help from DeepSeek-V3.** : https://chat.deepseek.com/share/y87imjr9ow8gqc1r8h
+All original code is used under the **Mozilla Public License 2.0**. No additional copyright is claimed – this is **open source** and free to use, modify, and distribute.
+
+---
+
+## 📋 Prerequisites
+
+- [Node.js](https://nodejs.org/) (includes `npx`)
+- Zotero 7, 8, or 9 installed locally ([download](https://www.zotero.org/download/))
+
+---
+
+## ⚙️ Setup: Manifest Validation Patch
+
+Zotero 7/8 are built on **Firefox ESR 115**. Mozilla’s `web-ext` tool requires a valid `gecko` block in `manifest.json`. Many Zotero plugins only declare a `zotero` block, causing a validation error.
+
+Open `src-2.0/manifest.json` (or your plugin’s source folder) and ensure the `applications` object contains both `gecko` and `zotero` entries:
 
 ```json
 {
   "manifest_version": 2,
-  "name": "Your Plugin Name",
+  "name": "Zotero UI Customization Sandbox",
   "version": "1.0",
   "applications": {
     "gecko": {
@@ -44,11 +82,13 @@ Open your `manifest.json` (e.g., `src-2.0/manifest.json`) and **add** a `gecko` 
 }
 ```
 
-> **Note:** Firefox ESR 115 is the foundation for Zotero 7, so `115.0` is the standard `strict_min_version` for the `gecko` block.
+> **Note:** The `gecko.id` must match the `zotero.id`. The `strict_min_version` for gecko is always `115.0` (Firefox ESR foundation).
 
-## 2. Running the Sandbox
+---
 
-Navigate to your plugin’s root directory (the one containing the `manifest.json` folder, e.g., `src-2.0`). Run `npx web-ext run` with the appropriate flags for your operating system.
+## 🚀 Running the Sandbox
+
+Navigate to the root of your repository in a terminal. Run the appropriate `npx web-ext run` command for your operating system.
 
 ### Linux
 ```bash
@@ -65,70 +105,116 @@ npx web-ext run --source-dir ./src-2.0 --firefox="/Applications/Zotero.app/Conte
 npx web-ext run --source-dir ./src-2.0 --firefox="C:\Program Files\Zotero\zotero.exe"
 ```
 
-*Adjust `--source-dir` if your `manifest.json` is in a different folder (e.g., `./src`).*
+*Adjust `--source-dir` if your `manifest.json` is in a different subfolder (e.g., `./src`).*
 
-## 3. Development Workflow
+---
 
-- The command launches a **temporary, isolated Zotero profile** – your normal library and settings are untouched.
-- `web-ext` watches the source directory for file changes.
-- **Any saved change** (to `.js`, `.css`, `.ftl`, etc.) triggers an automatic hot‑reload of the plugin inside Zotero. No manual restart is required.
+## 🔄 Development Workflow
 
-### Quick UI Customisation Checklist
+- The command launches a **temporary, isolated Zotero profile** – your normal library and settings remain untouched.
+- `web-ext` watches the source directory for any file changes.
+- **Every saved change** (`.js`, `.css`, `.ftl`, etc.) automatically triggers a hot‑reload of the plugin inside the running Zotero instance – **no manual restart needed**.
 
-1. **Find the element ID**  
-   Open Zotero’s **Run JavaScript** tool (`Tools → Developer → Run JavaScript`).  
-   *List all main menu IDs:*  
-   ```javascript
-   let menus = document.querySelectorAll('#main-menubar > menu');
-   Array.from(menus).map(m => m.id).join('\n');
-   ```
-   *List all toolbar button IDs:*  
-   ```javascript
-   let btns = document.querySelectorAll('[id^="zotero-tb-"]');
-   Array.from(btns).map(b => b.id).join('\n');
-   ```
+### 🕵️ Discovering UI Element IDs (No Guessing)
 
-2. **Edit `make-it-red.js` (or your main script)**  
-   Put your UI modifications inside the `addToWindow(window)` function. Example:
-   ```javascript
-   addToWindow(window) {
-       let doc = window.document;
-       // … existing code …
-       
-       // Rename the "Tools" menu
-       let toolsMenu = doc.getElementById('menu_Tools');
-       if (toolsMenu) toolsMenu.setAttribute('label', 'My Custom Tools');
-       
-       // Hide the "Help" menu
-       let helpMenu = doc.getElementById('menu_Help');
-       if (helpMenu) helpMenu.hidden = true;
-       
-       // Hide the "New Item" toolbar button
-       let newItemBtn = doc.getElementById('zotero-tb-new-item');
-       if (newItemBtn) newItemBtn.hidden = true;
-   }
-   ```
+Use Zotero’s built‑in **Run JavaScript** tool (`Tools → Developer → Run JavaScript`). Paste these expressions and click **Run**:
 
-3. **Debug with the Error Console**  
-   Add `Zotero.debug("Your message")` inside your code, then open **Tools → Developer → Error Console** to see the output.
+**List all main menu IDs:**
+```javascript
+let menus = document.querySelectorAll('#main-menubar > menu');
+Array.from(menus).map(m => m.id).join('\n');
+```
 
-## Troubleshooting
+**List all toolbar button IDs:**
+```javascript
+let btns = document.querySelectorAll('[id^="zotero-tb-"]');
+Array.from(btns).map(b => b.id).join('\n');
+```
+
+**Test a specific element (e.g., `menu_Tools`):**
+```javascript
+let el = document.getElementById('menu_Tools');
+el ? el.getAttribute('label') : 'not found';
+```
+
+> **Important:** Do **not** use `return` in these snippets – the tool automatically displays the last evaluated expression.
+
+---
+
+## ✏️ Making UI Changes
+
+All UI modifications **must** be placed inside the `addToWindow(window)` function of `make-it-red.js` (or your own main script). This ensures changes apply to every Zotero window.
+
+### Example: Rename Tools menu, hide Help menu, hide New Item button
+
+```javascript
+addToWindow(window) {
+    let doc = window.document;
+    // … existing make-it-red code (green checkbox, etc.) …
+
+    // --- Your custom edits ---
+    let toolsMenu = doc.getElementById('menu_Tools');
+    if (toolsMenu) toolsMenu.setAttribute('label', 'My Custom Tools');
+
+    let helpMenu = doc.getElementById('menu_Help');
+    if (helpMenu) helpMenu.hidden = true;
+
+    let newItemBtn = doc.getElementById('zotero-tb-new-item');
+    if (newItemBtn) newItemBtn.hidden = true;
+    // --- End edits ---
+}
+```
+
+### Debugging with the Error Console
+
+Add `Zotero.debug("Your message")` inside your code, then open **Tools → Developer → Error Console** to see the output.
+
+---
+
+## 🐛 Troubleshooting
 
 | Symptom | Likely Fix |
 |---------|-------------|
-| `missing "applications.gecko" property` | Add the `gecko` block to `manifest.json` (see Section 1). |
-| Plugin loads but UI changes don’t appear | Verify you placed the code inside `addToWindow(window)`, not `startup()`. |
-| `return not in function` error in Run JavaScript | Use expressions without `return`; the tool displays the last evaluated value. |
-| Changes don’t hot‑reload | Ensure `web-ext` is still running in the terminal. Kill and re‑run if needed. |
+| `missing "applications.gecko" property` | Add the `gecko` block to `manifest.json` (see above). |
+| Plugin loads but UI changes don’t appear | Ensure code is inside `addToWindow(window)`, not `startup()`. |
+| `return not in function` error in Run JavaScript | Use expressions without `return`; the tool prints the last value. |
+| Hot‑reload not working | Check that `web-ext` is still running in the terminal. Kill and re‑run if necessary. |
+| Zotero complains about “incompatible version” | Verify `strict_min_version` and `strict_max_version` in the `zotero` block match your installed version. |
 
-## Next Steps
+---
 
-- Pick a specific UI element (menu, button, field) you want to modify.
-- Use the Run JavaScript snippets above to find its exact `id`.
-- Add the one‑line modification to `addToWindow()`.
-- Watch it reload instantly.
+## 📁 Repository Structure
 
-You now have a fast, reliable development loop for Zotero 7/8 plugins. Happy hacking!
+```
+.
+├── src-2.0/                 # Plugin source (based on make-it-red)
+│   ├── bootstrap.js
+│   ├── chrome.manifest
+│   ├── locale/
+│   ├── make-it-red.js       # ← main UI logic
+│   └── manifest.json
+├── .gitignore
+├── LICENSE
+└── README.md                # This file
 ```
 
-This README is ready to be placed at the root of your repository. It combines your working `web-ext` setup with the practical UI‑discovery and modification techniques we validated today.
+---
+
+## 🤝 Contributing
+
+Issues and pull requests are welcome. Please test your changes using the `web-ext` workflow before submitting.
+
+---
+
+## 📄 License
+
+This project incorporates code from the [zotero/make-it-red](https://github.com/zotero/make-it-red) sample plugin, which is licensed under the **Mozilla Public License 2.0**. All modifications are released under the same license. **No additional copyright is claimed** – this is fully open source.
+
+---
+
+## 🙏 Final Note
+
+This sandbox was built to **stop guessing and start working**. If you find a more reliable method or discover additional Zotero 9‑specific nuances, please open an issue or a pull request. Happy customizing!
+```
+
+You can now copy this content into your `README.md`. Replace `your-plugin-id@zotero.org` with your actual plugin ID if needed, and adjust any repository‑specific links. The badges will work as soon as the repository is public on GitHub.
