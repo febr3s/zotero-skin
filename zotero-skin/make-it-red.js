@@ -58,7 +58,7 @@ MakeItRed = {
 		'view-menuitem-recursive-collections',
 		'menu_rtfScan',
 		'installConnector',
-		'developer-menu',
+		//'developer-menu',
 		'troubleshooting',
 		'feedbackPage',
 		'reportErrors',
@@ -67,6 +67,8 @@ MakeItRed = {
 			let el = doc.getElementById(id);
 			if (el) el.hidden = true;
 		});
+
+		// Hide some items we don't want to show in the "New Item" submenu
 
 		let newItemMenu = doc.getElementById('menu_newItem');
 		if (newItemMenu) {
@@ -109,9 +111,20 @@ MakeItRed = {
 						let item = this.querySelector(`[label="${label}"]`);
 						if (item) item.hidden = true;
 					});
+					// Rename some items we do want to show
+					let renameBill = this.querySelector('[label="Bill"]');
+    				if (renameBill) renameBill.setAttribute('label', 'Product');
+					let renamePresentation = this.querySelector('[label="Presentation"]');
+    				if (renamePresentation) renamePresentation.setAttribute('label', 'Event');
+					let renameLetter = this.querySelector('[label="Letter"]');
+    				if (renameLetter) renameLetter.setAttribute('label', 'Contact info');
+					let renameArtist = this.querySelector('[label="Dictionary Entry"]');
+    				if (renameArtist) renameArtist.setAttribute('label', 'Artist');
+
 				});
 			}
-		}
+		};
+		
 
 	},
 	
