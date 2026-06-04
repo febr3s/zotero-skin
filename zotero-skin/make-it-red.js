@@ -44,14 +44,34 @@ MakeItRed = {
 		doc.getElementById('menu_viewPopup').appendChild(menuitem);
 		this.storeAddedElement(menuitem);
 
-		    // Rename "Tools" menu
-		let helpMenu = doc.getElementById('menu_addByIdentifier');
-			if (helpMenu) helpMenu.hidden = true;
-		
+		// Hide some items we don't want to show in the menu
+		[
+		'menu_addByIdentifier',
+		'menu_newCollection',
+		'column-picker-submenu',
+		'menu_groupAdd',
+		'menu_feedAddFromOPML',
+		'menu_feedAddFromURL',
+		'menu_feedAddMenu',
+		'menu_importFromClipboard',
+		'show-tabs-menu',
+		'view-menuitem-recursive-collections',
+		'menu_rtfScan',
+		'installConnector',
+		'developer-menu',
+		'troubleshooting',
+		'feedbackPage',
+		'reportErrors',
+		'debug-output-menu',
+		'menuitem-restart-in-troubleshooting-mode'].forEach(id => {
+			let el = doc.getElementById(id);
+			if (el) el.hidden = true;
+		});
+
 	},
 	
 	addToAllWindows() {
-		var windows = Zotero.getMainWindows();
+		var windows = Zotero.getMainWindows();	
 		for (let win of windows) {
 			if (!win.ZoteroPane) continue;
 			this.addToWindow(win);
