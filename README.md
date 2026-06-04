@@ -1,33 +1,3 @@
-```markdown
-<!-- markdownlint-disable MD033 -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zotero/make-it-red/main/icon.png" width="128" height="128" alt="Plugin Icon">
-</p>
-
-<h1 align="center">Zotero UI Customization Sandbox</h1>
-
-<p align="center">
-  <strong>Live‑reloading development environment for Zotero 7/8/9</strong><br>
-  Forked from the official <code>make-it-red</code> sample plugin.
-</p>
-
-<p align="center">
-  <a href="https://www.zotero.org/">
-    <img src="https://img.shields.io/badge/Zotero-7%20%7C%208%20%7C%209-blue?logo=zotero&logoColor=white" alt="Zotero Versions">
-  </a>
-  <a href="https://opensource.org/licenses/MPL-2.0">
-    <img src="https://img.shields.io/badge/License-MPL%202.0-brightgreen" alt="License: MPL 2.0">
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions">
-    <img src="https://img.shields.io/badge/Built%20with-web--ext-green?logo=firefox" alt="Built with web-ext">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs Welcome">
-  </a>
-</p>
-
----
-
 ## 📌 Overview
 
 This repository provides a **reliable, hot‑reloading development sandbox** for Zotero plugins (versions 7, 8, and 9). It bypasses the legacy “proxy file” method – which often fails due to Zotero's aggressive extension caching – and uses Mozilla’s `web-ext` CLI tool to inject the plugin into a temporary Zotero profile with automatic reloading on file changes.
