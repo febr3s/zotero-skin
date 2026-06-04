@@ -1,0 +1,2327 @@
+[
+  {
+    "id": "fileMenu",
+    "label": "File",
+    "type": ""
+  },
+  {
+    "id": "menu_newItem",
+    "label": "New Item",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Book",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Book Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Document",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Journal Article",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Newspaper Article",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Artwork",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Audio Recording",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Bill",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Blog Post",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Case",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Conference Paper",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Dataset",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Dictionary Entry",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "E-mail",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Encyclopedia Article",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Film",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Forum Post",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Hearing",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Instant Message",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Interview",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Letter",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Magazine Article",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Manuscript",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Map",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Patent",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Podcast",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Preprint",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Presentation",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Radio Broadcast",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Report",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Software",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Standard",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Statute",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Thesis",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "TV Broadcast",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Video Recording",
+    "type": ""
+  },
+  {
+    "id": "menu_addByIdentifier",
+    "label": "Add by Identifier…",
+    "type": ""
+  },
+  {
+    "id": "menu_attachmentAdd",
+    "label": "Add Attachment",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Add File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Add Link to File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Attach File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Attach Link to File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Attach Web Link…",
+    "type": ""
+  },
+  {
+    "id": "menu_noteAdd",
+    "label": "New Note",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Standalone Note",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Item Note",
+    "type": ""
+  },
+  {
+    "id": "menu_newCollection",
+    "label": "New Collection…",
+    "type": ""
+  },
+  {
+    "id": "menu_groupAdd",
+    "label": "New Group…",
+    "type": ""
+  },
+  {
+    "id": "menu_feedAddMenu",
+    "label": "New Feed",
+    "type": ""
+  },
+  {
+    "id": "menu_feedAddFromURL",
+    "label": "From URL…",
+    "type": ""
+  },
+  {
+    "id": "menu_feedAddFromOPML",
+    "label": "From OPML…",
+    "type": ""
+  },
+  {
+    "id": "menu_transferFromPDF",
+    "label": "Import Annotations…",
+    "type": ""
+  },
+  {
+    "id": "menu_importFromEPUB",
+    "label": "Import Ebook Annotations…",
+    "type": ""
+  },
+  {
+    "id": "menu_export_file",
+    "label": "Save As…",
+    "type": ""
+  },
+  {
+    "id": "menu_print",
+    "label": "Print",
+    "type": ""
+  },
+  {
+    "id": "menu_showInLibrary",
+    "label": "Show in Library",
+    "type": ""
+  },
+  {
+    "id": "menu_close",
+    "label": "Close",
+    "type": ""
+  },
+  {
+    "id": "menu_close_tab",
+    "label": "Close",
+    "type": ""
+  },
+  {
+    "id": "menu_showFile",
+    "label": "Show File",
+    "type": ""
+  },
+  {
+    "id": "menu_export_files",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "menu_import",
+    "label": "Import…",
+    "type": ""
+  },
+  {
+    "id": "menu_importFromClipboard",
+    "label": "Import from Clipboard",
+    "type": ""
+  },
+  {
+    "id": "menu_exportLibrary",
+    "label": "Export Library…",
+    "type": ""
+  },
+  {
+    "id": "menu_fileQuitItemWin",
+    "label": "Exit",
+    "type": ""
+  },
+  {
+    "id": "menu_fileQuitItemUnix",
+    "label": "Quit",
+    "type": ""
+  },
+  {
+    "id": "edit-menu",
+    "label": "Edit",
+    "type": ""
+  },
+  {
+    "id": "menu_undo",
+    "label": "Undo",
+    "type": ""
+  },
+  {
+    "id": "menu_redo",
+    "label": "Redo",
+    "type": ""
+  },
+  {
+    "id": "menu_cut",
+    "label": "Cut",
+    "type": ""
+  },
+  {
+    "id": "menu_copy",
+    "label": "Copy",
+    "type": ""
+  },
+  {
+    "id": "menu_copyCitation",
+    "label": "Copy Citation",
+    "type": ""
+  },
+  {
+    "id": "menu_copyBibliography",
+    "label": "Copy Bibliography",
+    "type": ""
+  },
+  {
+    "id": "menu_copyExport",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "menu_copyNote",
+    "label": "Copy Note",
+    "type": ""
+  },
+  {
+    "id": "menu_copyAnnotation",
+    "label": "Copy 0 Annotations",
+    "type": ""
+  },
+  {
+    "id": "menu_paste",
+    "label": "Paste",
+    "type": ""
+  },
+  {
+    "id": "menu_delete",
+    "label": "Delete",
+    "type": ""
+  },
+  {
+    "id": "menu_selectAll",
+    "label": "Select All",
+    "type": ""
+  },
+  {
+    "id": "menu_rotateLeft",
+    "label": "Rotate Page Left",
+    "type": ""
+  },
+  {
+    "id": "menu_rotateRight",
+    "label": "Rotate Page Right",
+    "type": ""
+  },
+  {
+    "id": "menu_find",
+    "label": "Find",
+    "type": ""
+  },
+  {
+    "id": "menu_advancedSearch",
+    "label": "Advanced Search",
+    "type": ""
+  },
+  {
+    "id": "textfieldDirection-swap",
+    "label": "Switch Text Direction",
+    "type": ""
+  },
+  {
+    "id": "menu_EditPreferencesItem",
+    "label": "Settings",
+    "type": ""
+  },
+  {
+    "id": "view-menu",
+    "label": "View",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-hand-tool",
+    "label": "Hand Tool",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-vertical-scrolling",
+    "label": "Vertical Scrolling",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-horizontal-scrolling",
+    "label": "Horizontal Scrolling",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-wrapped-scrolling",
+    "label": "Wrapped Scrolling",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-no-spreads",
+    "label": "No Spreads",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-odd-spreads",
+    "label": "Odd Spreads",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-even-spreads",
+    "label": "Even Spreads",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-scrolled",
+    "label": "Scrolled",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-paginated",
+    "label": "Paginated",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-zoom-in",
+    "label": "Zoom In",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-zoom-out",
+    "label": "Zoom Out",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-zoom-reset",
+    "label": "Reset Zoom",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-zoom-auto",
+    "label": "Automatically Resize",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-zoom-page-width",
+    "label": "Zoom to Page Width",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-zoom-page-height",
+    "label": "Zoom to Page Height",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-split-horizontally",
+    "label": "Split Horizontally",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-split-vertically",
+    "label": "Split Vertically",
+    "type": "checkbox"
+  },
+  {
+    "id": "layout-menu",
+    "label": "Layout",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-standard",
+    "label": "Standard View",
+    "type": "radio"
+  },
+  {
+    "id": "view-menuitem-stacked",
+    "label": "Stacked View",
+    "type": "radio"
+  },
+  {
+    "id": "view-menuitem-collections-pane",
+    "label": "Collections Pane",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-item-pane",
+    "label": "Item Pane",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-tag-selector",
+    "label": "Tag Selector",
+    "type": "checkbox"
+  },
+  {
+    "id": "density-menu",
+    "label": "Density",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-ui-density-compact",
+    "label": "Compact",
+    "type": "radio"
+  },
+  {
+    "id": "view-menuitem-ui-density-comfortable",
+    "label": "Comfortable",
+    "type": "radio"
+  },
+  {
+    "id": "font-size-menu",
+    "label": "Font Size",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-font-size-bigger",
+    "label": "Bigger",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-font-size-smaller",
+    "label": "Smaller",
+    "type": ""
+  },
+  {
+    "id": "view-menuitem-font-size-reset",
+    "label": "Reset",
+    "type": ""
+  },
+  {
+    "id": "note-font-size-menu",
+    "label": "Note Font Size",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "11",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "12",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "13",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "14",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "15",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "16",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "18",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "24",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "36",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "48",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "64",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "72",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "96",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-note-font-size-reset",
+    "label": "Reset",
+    "type": ""
+  },
+  {
+    "id": "note-tab-font-size-menu",
+    "label": "Note Tab Font Size",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "11",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "12",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "13",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "14",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "15",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "16",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "18",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "24",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "36",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "48",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "64",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "72",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "96",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-note-tab-font-size-reset",
+    "label": "Reset",
+    "type": ""
+  },
+  {
+    "id": "column-picker-submenu",
+    "label": "Columns",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Creator",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Item Type",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Date",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Year",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Publisher",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Publication",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Date Added",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Date Modified",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Extra",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Attachments",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Notes",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "More Columns",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Accessed",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Archive",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Call Number",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Court",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Edition",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Issue",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Journal Abbr",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Language",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Library Catalog",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "License",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Loc. in Archive",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Medium",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Number",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Pages",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Place",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Series",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Series Title",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Short Title",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "System",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Type",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Volume",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Secondary Sort (Title)",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Creator",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Item Type",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Date",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Year",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Publisher",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Publication",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Date Added",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Date Modified",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Move Column Left",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Creator",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Attachments",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Restore Column Order",
+    "type": ""
+  },
+  {
+    "id": "sort-submenu",
+    "label": "Sort By",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Title",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Creator",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Attachments",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-recursive-collections",
+    "label": "Show Items from Subcollections",
+    "type": "checkbox"
+  },
+  {
+    "id": "view-menuitem-hide-context-annotation-rows",
+    "label": "Hide Non-Matching Annotations",
+    "type": "checkbox"
+  },
+  {
+    "id": "show-tabs-menu",
+    "label": "Show Tabs Menu",
+    "type": ""
+  },
+  {
+    "id": "make-it-green-instead",
+    "label": "Make It Green Instead",
+    "type": "checkbox"
+  },
+  {
+    "id": "go-menu",
+    "label": "Go",
+    "type": ""
+  },
+  {
+    "id": "go-menuitem-first-page",
+    "label": "First Page",
+    "type": ""
+  },
+  {
+    "id": "go-menuitem-last-page",
+    "label": "Last Page",
+    "type": ""
+  },
+  {
+    "id": "go-menuitem-back",
+    "label": "Back",
+    "type": ""
+  },
+  {
+    "id": "go-menuitem-forward",
+    "label": "Forward",
+    "type": ""
+  },
+  {
+    "id": "toolsMenu",
+    "label": "Tools",
+    "type": ""
+  },
+  {
+    "id": "menu_rtfScan",
+    "label": "RTF Scan",
+    "type": ""
+  },
+  {
+    "id": "installConnector",
+    "label": "Install Browser Connector…",
+    "type": ""
+  },
+  {
+    "id": "menu_addons",
+    "label": "Plugins",
+    "type": ""
+  },
+  {
+    "id": "developer-menu",
+    "label": "Developer",
+    "type": ""
+  },
+  {
+    "id": "menu_errorConsole",
+    "label": "Error Console",
+    "type": ""
+  },
+  {
+    "id": "menu_runJS",
+    "label": "Run JavaScript",
+    "type": ""
+  },
+  {
+    "id": "style-editor-menu-item",
+    "label": "Style Editor",
+    "type": ""
+  },
+  {
+    "id": "scaffold-menu-item",
+    "label": "Translator Editor",
+    "type": ""
+  },
+  {
+    "id": "manage-attachments-menu",
+    "label": "Manage Attachments",
+    "type": ""
+  },
+  {
+    "id": "file-menuitem-convert-to-stored",
+    "label": "Convert Linked Files to Stored Files…",
+    "type": ""
+  },
+  {
+    "id": "file-menuitem-normalize-attachment-titles",
+    "label": "Normalize Attachment Titles…",
+    "type": ""
+  },
+  {
+    "id": "windowMenu",
+    "label": "Window",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "helpMenu",
+    "label": "Help",
+    "type": ""
+  },
+  {
+    "id": "menu_openHelp",
+    "label": "Support and Documentation",
+    "type": ""
+  },
+  {
+    "id": "troubleShooting",
+    "label": "Troubleshooting Information",
+    "type": ""
+  },
+  {
+    "id": "feedbackPage",
+    "label": "Discussion Forums",
+    "type": ""
+  },
+  {
+    "id": "reportErrors",
+    "label": "Report Errors…",
+    "type": ""
+  },
+  {
+    "id": "debug-output-menu",
+    "label": "Debug Output Logging",
+    "type": ""
+  },
+  {
+    "id": "debug-output-submit",
+    "label": "Submit Output",
+    "type": ""
+  },
+  {
+    "id": "debug-output-enable-disable",
+    "label": "Enable",
+    "type": ""
+  },
+  {
+    "id": "debug-output-status",
+    "label": "0 lines logged",
+    "type": ""
+  },
+  {
+    "id": "debug-output-view",
+    "label": "View Output",
+    "type": ""
+  },
+  {
+    "id": "debug-output-clear",
+    "label": "Clear Output",
+    "type": ""
+  },
+  {
+    "id": "debug-output-restart-enabled",
+    "label": "Restart with Logging Enabled…",
+    "type": ""
+  },
+  {
+    "id": "menuitem-restart-in-troubleshooting-mode",
+    "label": "Restart in Troubleshooting Mode…",
+    "type": ""
+  },
+  {
+    "id": "checkForUpdates",
+    "label": "Check for Updates…",
+    "type": ""
+  },
+  {
+    "id": "aboutName",
+    "label": "About Zotero",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Collection…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Saved Search…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Subcollection…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Show Duplicates",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Show Unfiled Items",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Show Retracted Items",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Show My Publications",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Edit Feed…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Feed",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "From URL…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "From OPML…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Export Library…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Empty Trash",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Add Note",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Add Attachment",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "File",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Linked File",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Web Link",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Change Parent Item…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Duplicate Item",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Restore to Library",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Merge Items…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Relate Items",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Undo Retrieve Metadata",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Assign Color…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Rename Tag…",
+    "type": ""
+  },
+  {
+    "id": "split-tag",
+    "label": "Split…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Delete Tag…",
+    "type": ""
+  },
+  {
+    "id": "num-selected",
+    "label": null,
+    "type": ""
+  },
+  {
+    "id": "deselect-all",
+    "label": "Deselect All",
+    "type": ""
+  },
+  {
+    "id": "show-automatic",
+    "label": "Show Automatic",
+    "type": "checkbox"
+  },
+  {
+    "id": "display-all-tags",
+    "label": "Display All Tags in This Library",
+    "type": "checkbox"
+  },
+  {
+    "id": "delete-automatic-tags",
+    "label": "Delete Automatic Tags in This Library…",
+    "type": "checkbox"
+  },
+  {
+    "id": "",
+    "label": "Add File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Add Link to File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Attach File…",
+    "type": ""
+  },
+  {
+    "id": "zotero-tb-attachment-add-file-link",
+    "label": "Attach Link to File…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Attach Web Link…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Standalone Note",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "New Item Note",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Copy",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "View As",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "creator-transform-swap-names",
+    "label": "Swap First/Last",
+    "type": ""
+  },
+  {
+    "id": "creator-transform-capitalize",
+    "label": "Fix Case",
+    "type": ""
+  },
+  {
+    "id": "zotero-creator-move-to-top",
+    "label": "Move to Top",
+    "type": ""
+  },
+  {
+    "id": "zotero-creator-move-up",
+    "label": "Move Up",
+    "type": ""
+  },
+  {
+    "id": "zotero-creator-move-down",
+    "label": "Move Down",
+    "type": ""
+  },
+  {
+    "id": "zotero-link-menu-view-online",
+    "label": "View Online",
+    "type": ""
+  },
+  {
+    "id": "zotero-link-menu-copy",
+    "label": "Copy as URL",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "File",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Linked File",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Web Link",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "remove-all-item-tags",
+    "label": "Remove All Tags…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "url-menuitem-copy",
+    "label": "Copy",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "remove-all-item-tags",
+    "label": "Remove All Tags…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "remove-all-item-tags",
+    "label": "Remove All Tags…",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Collapse Other Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Expand All Sections",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "creator-transform-swap-names",
+    "label": "Swap First/Last",
+    "type": ""
+  },
+  {
+    "id": "creator-transform-capitalize",
+    "label": "Fix Case",
+    "type": ""
+  },
+  {
+    "id": "zotero-creator-move-to-top",
+    "label": "Move to Top",
+    "type": ""
+  },
+  {
+    "id": "zotero-creator-move-up",
+    "label": "Move Up",
+    "type": ""
+  },
+  {
+    "id": "zotero-creator-move-down",
+    "label": "Move Down",
+    "type": ""
+  },
+  {
+    "id": "zotero-link-menu-view-online",
+    "label": "View Online",
+    "type": ""
+  },
+  {
+    "id": "zotero-link-menu-copy",
+    "label": "Copy as URL",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Pin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Unpin Section",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Up",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Move Section Down",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Reset Section Order",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Undo",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Redo",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Cut",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Copy",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Paste",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Delete",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Select All",
+    "type": ""
+  },
+  {
+    "id": "",
+    "label": "Switch Text Direction",
+    "type": ""
+  }
+]

@@ -1,0 +1,62 @@
+Some key scripts
+
+# Showing all menu checkbox elements with their labels
+
+``` javascript
+let checkboxes = [];
+let allMenus = document.querySelectorAll('menuitem, menu');
+for (let item of allMenus) {
+    if (item.getAttribute('type') === 'checkbox') {
+        checkboxes.push({
+            id: item.id,
+            label: item.getAttribute('label'),
+            checked: item.checked
+        });
+    }
+}
+JSON.stringify(checkboxes, null, 2);
+```
+
+# Showing all menu elements with their labels
+
+``` javascript
+let checkboxes = [];
+let allMenus = document.querySelectorAll('menuitem, menu');
+for (let item of allMenus) {
+    if (item.getAttribute('type') === 'checkbox') {
+        checkboxes.push({
+            id: item.id,
+            label: item.getAttribute('label'),
+            checked: item.checked
+        });
+    }
+}
+JSON.stringify(checkboxes, null, 2);
+```
+
+# Showing some item box field names
+
+let infoBox = document.getElementById('zotero-editpane-info-box');
+if (infoBox) {
+    let allElements = infoBox.querySelectorAll('*');
+    let result = [];
+    for (let el of allElements) {
+        let attrs = {
+            tag: el.tagName,
+            id: el.id,
+            class: el.className,
+            fieldName: el.getAttribute('fieldName'),
+            dataField: el.getAttribute('data-field'),
+            placeholder: el.getAttribute('placeholder'),
+            label: el.getAttribute('label'),
+            text: el.textContent.trim().substring(0, 50)
+        };
+        // Only include if it has any useful attribute or if it's a field row candidate
+        if (attrs.id || attrs.class || attrs.fieldName || attrs.dataField || attrs.placeholder || attrs.label || attrs.text) {
+            result.push(attrs);
+        }
+    }
+    JSON.stringify(result, null, 2);
+} else {
+    "infoBox not found";
+}

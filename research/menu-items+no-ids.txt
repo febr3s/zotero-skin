@@ -1,0 +1,370 @@
+[
+  {
+    "id": "view-menuitem-hand-tool",
+    "label": "Hand Tool"
+  },
+  {
+    "id": "view-menuitem-vertical-scrolling",
+    "label": "Vertical Scrolling"
+  },
+  {
+    "id": "view-menuitem-horizontal-scrolling",
+    "label": "Horizontal Scrolling"
+  },
+  {
+    "id": "view-menuitem-wrapped-scrolling",
+    "label": "Wrapped Scrolling"
+  },
+  {
+    "id": "view-menuitem-no-spreads",
+    "label": "No Spreads"
+  },
+  {
+    "id": "view-menuitem-odd-spreads",
+    "label": "Odd Spreads"
+  },
+  {
+    "id": "view-menuitem-even-spreads",
+    "label": "Even Spreads"
+  },
+  {
+    "id": "view-menuitem-scrolled",
+    "label": "Scrolled"
+  },
+  {
+    "id": "view-menuitem-paginated",
+    "label": "Paginated"
+  },
+  {
+    "id": "view-menuitem-zoom-auto",
+    "label": "Automatically Resize"
+  },
+  {
+    "id": "view-menuitem-zoom-page-width",
+    "label": "Zoom to Page Width"
+  },
+  {
+    "id": "view-menuitem-zoom-page-height",
+    "label": "Zoom to Page Height"
+  },
+  {
+    "id": "view-menuitem-split-horizontally",
+    "label": "Split Horizontally"
+  },
+  {
+    "id": "view-menuitem-split-vertically",
+    "label": "Split Vertically"
+  },
+  {
+    "id": "view-menuitem-collections-pane",
+    "label": "Collections Pane"
+  },
+  {
+    "id": "view-menuitem-item-pane",
+    "label": "Item Pane"
+  },
+  {
+    "id": "view-menuitem-tag-selector",
+    "label": "Tag Selector"
+  },
+  {
+    "id": "",
+    "label": "11"
+  },
+  {
+    "id": "",
+    "label": "12"
+  },
+  {
+    "id": "",
+    "label": "13"
+  },
+  {
+    "id": "",
+    "label": "14"
+  },
+  {
+    "id": "",
+    "label": "15"
+  },
+  {
+    "id": "",
+    "label": "16"
+  },
+  {
+    "id": "",
+    "label": "18"
+  },
+  {
+    "id": "",
+    "label": "24"
+  },
+  {
+    "id": "",
+    "label": "36"
+  },
+  {
+    "id": "",
+    "label": "48"
+  },
+  {
+    "id": "",
+    "label": "64"
+  },
+  {
+    "id": "",
+    "label": "72"
+  },
+  {
+    "id": "",
+    "label": "96"
+  },
+  {
+    "id": "",
+    "label": "11"
+  },
+  {
+    "id": "",
+    "label": "12"
+  },
+  {
+    "id": "",
+    "label": "13"
+  },
+  {
+    "id": "",
+    "label": "14"
+  },
+  {
+    "id": "",
+    "label": "15"
+  },
+  {
+    "id": "",
+    "label": "16"
+  },
+  {
+    "id": "",
+    "label": "18"
+  },
+  {
+    "id": "",
+    "label": "24"
+  },
+  {
+    "id": "",
+    "label": "36"
+  },
+  {
+    "id": "",
+    "label": "48"
+  },
+  {
+    "id": "",
+    "label": "64"
+  },
+  {
+    "id": "",
+    "label": "72"
+  },
+  {
+    "id": "",
+    "label": "96"
+  },
+  {
+    "id": "",
+    "label": "Creator"
+  },
+  {
+    "id": "",
+    "label": "Item Type"
+  },
+  {
+    "id": "",
+    "label": "Date"
+  },
+  {
+    "id": "",
+    "label": "Year"
+  },
+  {
+    "id": "",
+    "label": "Publisher"
+  },
+  {
+    "id": "",
+    "label": "Publication"
+  },
+  {
+    "id": "",
+    "label": "Date Added"
+  },
+  {
+    "id": "",
+    "label": "Date Modified"
+  },
+  {
+    "id": "",
+    "label": "Extra"
+  },
+  {
+    "id": "",
+    "label": "Attachments"
+  },
+  {
+    "id": "",
+    "label": "Notes"
+  },
+  {
+    "id": "",
+    "label": "Accessed"
+  },
+  {
+    "id": "",
+    "label": "Archive"
+  },
+  {
+    "id": "",
+    "label": "Call Number"
+  },
+  {
+    "id": "",
+    "label": "Court"
+  },
+  {
+    "id": "",
+    "label": "Edition"
+  },
+  {
+    "id": "",
+    "label": "Issue"
+  },
+  {
+    "id": "",
+    "label": "Journal Abbr"
+  },
+  {
+    "id": "",
+    "label": "Language"
+  },
+  {
+    "id": "",
+    "label": "Library Catalog"
+  },
+  {
+    "id": "",
+    "label": "License"
+  },
+  {
+    "id": "",
+    "label": "Loc. in Archive"
+  },
+  {
+    "id": "",
+    "label": "Medium"
+  },
+  {
+    "id": "",
+    "label": "Number"
+  },
+  {
+    "id": "",
+    "label": "Pages"
+  },
+  {
+    "id": "",
+    "label": "Place"
+  },
+  {
+    "id": "",
+    "label": "Series"
+  },
+  {
+    "id": "",
+    "label": "Series Title"
+  },
+  {
+    "id": "",
+    "label": "Short Title"
+  },
+  {
+    "id": "",
+    "label": "System"
+  },
+  {
+    "id": "",
+    "label": "Type"
+  },
+  {
+    "id": "",
+    "label": "Volume"
+  },
+  {
+    "id": "",
+    "label": "Creator"
+  },
+  {
+    "id": "",
+    "label": "Item Type"
+  },
+  {
+    "id": "",
+    "label": "Date"
+  },
+  {
+    "id": "",
+    "label": "Year"
+  },
+  {
+    "id": "",
+    "label": "Publisher"
+  },
+  {
+    "id": "",
+    "label": "Publication"
+  },
+  {
+    "id": "",
+    "label": "Date Added"
+  },
+  {
+    "id": "",
+    "label": "Date Modified"
+  },
+  {
+    "id": "",
+    "label": "Title"
+  },
+  {
+    "id": "",
+    "label": "Creator"
+  },
+  {
+    "id": "",
+    "label": "Attachments"
+  },
+  {
+    "id": "view-menuitem-recursive-collections",
+    "label": "Show Items from Subcollections"
+  },
+  {
+    "id": "view-menuitem-hide-context-annotation-rows",
+    "label": "Hide Non-Matching Annotations"
+  },
+  {
+    "id": "make-it-green-instead",
+    "label": "Make It Green Instead"
+  },
+  {
+    "id": "show-automatic",
+    "label": "Show Automatic"
+  },
+  {
+    "id": "display-all-tags",
+    "label": "Display All Tags in This Library"
+  },
+  {
+    "id": "delete-automatic-tags",
+    "label": "Delete Automatic Tags in This Library…"
+  }
+]

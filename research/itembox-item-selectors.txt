@@ -1,0 +1,3831 @@
+[
+  {
+    "tag": "collapsible-section",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Info",
+    "text": "InfoItem TypeArtworkAudio RecordingBillBlog PostBo"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "head",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Info"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "title-box",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Info"
+  },
+  {
+    "tag": "span",
+    "id": "",
+    "class": "title",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Info"
+  },
+  {
+    "tag": "span",
+    "id": "",
+    "class": "summary",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-pin",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Pin Section",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-unpin",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Unpin Section",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-collapse-others",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Collapse Other Sections",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-expand-all",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Expand All Sections",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-reorder-up",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Move Section Up",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-reorder-down",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Move Section Down",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "menuitem-iconic zotero-menuitem-reorder-reset",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Reset Section Order",
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "",
+    "class": "twisty",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Collapse Info section",
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Collapse Info section",
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "html:div",
+    "id": "",
+    "class": "body",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Item TypeArtworkAudio RecordingBillBlog PostBookBo"
+  },
+  {
+    "tag": "div",
+    "id": "info-box",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Item TypeArtworkAudio RecordingBillBlog PostBookBo"
+  },
+  {
+    "tag": "menupopup",
+    "id": "creator-type-menu",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Presenter",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Chair",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Contributor",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Organizer",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Translator",
+    "text": ""
+  },
+  {
+    "tag": "menupopup",
+    "id": "zotero-creator-transform-menu",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "creator-transform-swap-names",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Swap First/Last",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "creator-transform-capitalize",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Fix Case",
+    "text": ""
+  },
+  {
+    "tag": "menuseparator",
+    "id": "zotero-creator-move-sep",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "zotero-creator-move-to-top",
+    "class": "zotero-creator-move",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Move to Top",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "zotero-creator-move-up",
+    "class": "zotero-creator-move",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Move Up",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "zotero-creator-move-down",
+    "class": "zotero-creator-move",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Move Down",
+    "text": ""
+  },
+  {
+    "tag": "menupopup",
+    "id": "zotero-link-menu",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "zotero-link-menu-view-online",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "View Online",
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "zotero-link-menu-copy",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Copy as URL",
+    "text": ""
+  },
+  {
+    "tag": "menupopup",
+    "id": "zotero-field-menu",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "guidance-panel",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "html:div",
+    "id": "",
+    "class": "panel-container",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "html:div",
+    "id": "",
+    "class": "panel-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "retraction-box",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "retraction-header",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "retraction-header-text",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "retraction-details",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "p",
+    "id": "retraction-date",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "dl",
+    "id": "retraction-reasons",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "p",
+    "id": "retraction-notice",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "retraction-links",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "p",
+    "id": "retraction-credit",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "retraction-hide",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "info-table",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Item TypeArtworkAudio RecordingBillBlog PostBookBo"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Item TypeArtworkAudio RecordingBillBlog PostBookBo"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Item Type"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-itemType-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Item Type"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "ArtworkAudio RecordingBillBlog PostBookBook Sectio"
+  },
+  {
+    "tag": "menulist",
+    "id": "item-type-menu",
+    "class": "zotero-clicky keyboard-clickable",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Presentation",
+    "text": "ArtworkAudio RecordingBillBlog PostBookBook Sectio"
+  },
+  {
+    "tag": "menupopup",
+    "id": "",
+    "class": "in-menulist",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "ArtworkAudio RecordingBillBlog PostBookBook Sectio"
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Artwork",
+    "text": "Artwork"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Artwork"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Audio Recording",
+    "text": "Audio Recording"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Audio Recording"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Bill",
+    "text": "Bill"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Bill"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Blog Post",
+    "text": "Blog Post"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Blog Post"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Book",
+    "text": "Book"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Book"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Book Section",
+    "text": "Book Section"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Book Section"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Case",
+    "text": "Case"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Case"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Conference Paper",
+    "text": "Conference Paper"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Conference Paper"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Dataset",
+    "text": "Dataset"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Dataset"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Dictionary Entry",
+    "text": "Dictionary Entry"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Dictionary Entry"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Document",
+    "text": "Document"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Document"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "E-mail",
+    "text": "E-mail"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "E-mail"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Encyclopedia Article",
+    "text": "Encyclopedia Article"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Encyclopedia Article"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Film",
+    "text": "Film"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Film"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Forum Post",
+    "text": "Forum Post"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Forum Post"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Hearing",
+    "text": "Hearing"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Hearing"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Instant Message",
+    "text": "Instant Message"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Instant Message"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Interview",
+    "text": "Interview"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Interview"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Journal Article",
+    "text": "Journal Article"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Journal Article"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Letter",
+    "text": "Letter"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Letter"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Magazine Article",
+    "text": "Magazine Article"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Magazine Article"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Manuscript",
+    "text": "Manuscript"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Manuscript"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Map",
+    "text": "Map"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Map"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Newspaper Article",
+    "text": "Newspaper Article"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Newspaper Article"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Patent",
+    "text": "Patent"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Patent"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Podcast",
+    "text": "Podcast"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Podcast"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Preprint",
+    "text": "Preprint"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Preprint"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Presentation",
+    "text": "Presentation"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Presentation"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Radio Broadcast",
+    "text": "Radio Broadcast"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Radio Broadcast"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Report",
+    "text": "Report"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Report"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Software",
+    "text": "Software"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Software"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Standard",
+    "text": "Standard"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Standard"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Statute",
+    "text": "Statute"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Statute"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Thesis",
+    "text": "Thesis"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Thesis"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "TV Broadcast",
+    "text": "TV Broadcast"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "TV Broadcast"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Video Recording",
+    "text": "Video Recording"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Video Recording"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "menuitem",
+    "id": "",
+    "class": "",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": "Web Page",
+    "text": "Web Page"
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "menu-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-highlightable-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Web Page"
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "menu-accel",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Title"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-title-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-title",
+    "class": "value focused",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "itembox-field-title-options",
+    "class": "zotero-clicky zotero-clicky-options show-on-hover",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Presenter"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Presenter"
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "",
+    "class": "zotero-clicky zotero-clicky-grippy show-on-hover single-creator-grippy",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "creator-0-label",
+    "class": "creator-type-label keyboard-clickable zotero-clicky",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Presenter"
+  },
+  {
+    "tag": "span",
+    "id": "",
+    "class": "creator-type-dropmarker",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "creator-type-label-inner",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Presenter"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "creator-type-value autocomplete-popup-width-container",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "span",
+    "id": "",
+    "class": "creator-name-box",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-creator-0-lastName",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "(last)",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "input",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "(last)",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-creator-0-firstName",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "(first)",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "input",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "(first)",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "creator-0-switchType",
+    "class": "zotero-clicky zotero-clicky-switch-type show-on-hover no-display",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "creator-0-remove",
+    "class": "zotero-clicky zotero-clicky-minus show-on-hover no-display",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "creator-0-add",
+    "class": "zotero-clicky zotero-clicky-plus show-on-hover no-display",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "creator-0-options",
+    "class": "zotero-clicky zotero-clicky-options show-on-hover no-display",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Type"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Type"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-presentationType-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Type"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-presentationType",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Date"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Date"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-date-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Date"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data date-box",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-date",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "span",
+    "id": "zotero-date-field-status",
+    "class": "show-on-hover",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Meeting Name"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Meeting Name"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-meetingName-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Meeting Name"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-meetingName",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Place"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Place"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-place-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Place"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-place",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Series"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Series"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-series-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Series"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-series",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Session Title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Session Title"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-sessionTitle-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Session Title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-sessionTitle",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "itembox-field-sessionTitle-options",
+    "class": "zotero-clicky zotero-clicky-options show-on-hover",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "DOI"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "DOI"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-DOI-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "DOI"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-DOI",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "itembox-field-DOI-link",
+    "class": "zotero-clicky zotero-clicky-open-link show-on-hover",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Citation Key"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Citation Key"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-citationKey-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Citation Key"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-citationKey",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "URL"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "URL"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-url-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "URL"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-url",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "itembox-field-url-link",
+    "class": "zotero-clicky zotero-clicky-open-link show-on-hover",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Accessed"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Accessed"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-accessDate-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Accessed"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-accessDate",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Short Title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Short Title"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-shortTitle-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Short Title"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-shortTitle",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "toolbarbutton",
+    "id": "itembox-field-shortTitle-options",
+    "class": "zotero-clicky zotero-clicky-options show-on-hover",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "image",
+    "id": "",
+    "class": "toolbarbutton-icon",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "label",
+    "id": "",
+    "class": "toolbarbutton-text",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Language"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Language"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-language-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Language"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-language",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "License"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "License"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-rights-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "License"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-rights",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Extra"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Extra"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-extra-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Extra"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-extra",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Date Added"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Date Added"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-dateAdded-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Date Added"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-dateAdded",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-row",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Modified"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-label",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Modified"
+  },
+  {
+    "tag": "label",
+    "id": "itembox-field-dateModified-label",
+    "class": "key",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": "Modified"
+  },
+  {
+    "tag": "div",
+    "id": "",
+    "class": "meta-data",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "editable-text",
+    "id": "itembox-field-value-dateModified",
+    "class": "value",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": null,
+    "label": null,
+    "text": ""
+  },
+  {
+    "tag": "textarea",
+    "id": "",
+    "class": "input",
+    "fieldName": null,
+    "dataField": null,
+    "placeholder": "",
+    "label": null,
+    "text": ""
+  }
+]

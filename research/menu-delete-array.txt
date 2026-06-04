@@ -1,0 +1,15 @@
+menu_groupAdd
+menu_feedAddFromOPML
+menu_feedAddFromURL
+menu_feedAddMenu
+menu_importFromClipboard
+show-tabs-menu
+view-menuitem-recursive-collections
+menu_rtfScan
+installConnector
+developer-menu
+troubleshooting
+feedbackPage
+reportErrors
+debug-output-menu
+menuitem-restart-in-troubleshooting-mode
