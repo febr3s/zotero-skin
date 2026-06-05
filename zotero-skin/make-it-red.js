@@ -120,11 +120,52 @@ MakeItRed = {
     				if (renameLetter) renameLetter.setAttribute('label', 'Contact info');
 					let renameArtist = this.querySelector('[label="Dictionary Entry"]');
     				if (renameArtist) renameArtist.setAttribute('label', 'Artist');
-
+					
 				});
+			
 			}
 		};
+
+		// hide fields from the item box
 		
+				// Wait for the item pane container to exist (it may not be present immediately)
+		let infoBox = window.document.getElementById('zotero-editpane-info-box');
+		if (!infoBox) {
+			// If not found now, observe the document to detect when it appears
+			let doc = window.document;
+			let observer = new MutationObserver(function(mutations, obs) {
+				let newInfoBox = doc.getElementById('zotero-editpane-info-box');
+				if (newInfoBox) {
+					obs.disconnect(); // stop observing once we have the container
+					attachHideObserver(newInfoBox);
+				}
+			});
+			observer.observe(doc.body, { childList: true, subtree: true });
+		} else {
+			attachHideObserver(infoBox);
+		}
+
+		function attachHideObserver(container) {
+			// This function hides the target row now and whenever new rows are added
+			function hideDictionaryTitle() {
+				let rows = container.querySelectorAll('.meta-row');
+				for (let row of rows) {
+					if (row.textContent.trim() === 'Dictionary Title') {
+						row.hidden = true;
+						break;
+					}
+				}
+			}
+			
+			// Hide immediately if already present
+			hideDictionaryTitle();
+			
+			// Watch for future changes (e.g., when user selects a different item)
+			let mutationObserver = new MutationObserver(function(mutations) {
+				hideDictionaryTitle();
+			});
+			mutationObserver.observe(container, { childList: true, subtree: true });
+		}
 
 	},
 	
