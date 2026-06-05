@@ -133,7 +133,7 @@ setInterval(() => {
     for (let row of rows) {
         if (row.textContent.trim() === 'Dictionary Title') row.hidden = true;
     }
-}, 5);		
+}, 50);		
 
 
 	},

@@ -1,0 +1,85 @@
+# Menus
+
+## Delete 
+
+Edit > Copy Citation
+Edit > Copy Bibliography
+Help > Debug output
+Tools > Developer
+## Manipulate
+
+Help > Support
+Help > Troubleshooting
+
+# Item-Pane
+
+Bar icons
+
+# Item-Box
+
+## Delete
+
+### Options
+
+Item type
+Libraries
+Abstract
+
+
+### Fields
+
+Edition
+Series
+Series Number
+Volume
+# of Volumes
+Publisher
+Pages
+ISBN
+Citation Key
+Loc. in Archive
+Short Title
+Language
+Library Catalog
+License
+Accessed
+Code
+Code Volume
+Section
+Code Pages
+Legislative Body
+Session
+Blog Title
+Website Type
+ISSN
+Session Title
+
+## Change field behavior
+
+Type: Exhib/Fair
+
+## Change Field
+
+Author > Name
+Bill Number > Price
+History > Disponible/No disponible
+Event Place > Address
+
+
+## Filter
+
+DOI
+Title
+Author
+Creator
+Date
+Place
+Archive
+URL
+Extra
+Title > Nombre
+Bill Number
+Call Number
+URL > email
+
+
