@@ -36,6 +36,7 @@ JSON.stringify(checkboxes, null, 2);
 
 # Showing some item box field names
 
+``` javascript
 let infoBox = document.getElementById('zotero-editpane-info-box');
 if (infoBox) {
     let allElements = infoBox.querySelectorAll('*');
@@ -60,6 +61,7 @@ if (infoBox) {
 } else {
     "infoBox not found";
 }
+<<<<<<< HEAD
 
 # Console working script to hide elements definetely
 
@@ -75,3 +77,85 @@ hideIt();
 new MutationObserver(hideIt).observe(document.documentElement, { childList: true, subtree: true });
 "Observer running – switch items and come back to see if it stays hidden";
 ```
+=======
+```
+
+# Working script on console to hide field consistently 1
+
+``` javascript
+let container = document.getElementById('zotero-editpane-info-box');
+if (container) {
+    let observer = new MutationObserver(() => {
+        let target = Array.from(container.querySelectorAll('.meta-row'))
+            .find(row => row.textContent.trim() === 'Dictionary Title');
+        if (target) target.hidden = true;
+    });
+    observer.observe(container, { childList: true, subtree: true });
+    // Manually trigger a re-hide now
+    let target = Array.from(container.querySelectorAll('.meta-row'))
+        .find(row => row.textContent.trim() === 'Dictionary Title');
+    if (target) target.hidden = true;
+    "Observer attached – now try switching to another item and back";
+} else {
+    "Select an item first";
+}
+```
+# Working script on console to hide field consistently 2
+
+``` javascript
+        let targetText = "Dictionary Title";
+        function hideIt() {
+            let rows = document.querySelectorAll('#zotero-editpane-info-box .meta-row');
+            for (let row of rows) {
+                if (row.textContent.trim() === targetText) row.hidden = true;
+            }
+        }
+        hideIt();
+        new MutationObserver(hideIt).observe(document.documentElement, { childList: true, subtree: true });
+        "Observer running – switch items and come back to see if it stays hidden";
+        
+```
+
+# Working script to hide the field, that only works when refreshed (not when oppening Zotero, and neither when switching items)
+
+``` javascript
+// Wait for the item pane container to exist (it may not be present immediately)
+let infoBox = window.document.getElementById('zotero-editpane-info-box');
+if (!infoBox) {
+    // If not found now, observe the document to detect when it appears
+    let doc = window.document;
+    let observer = new MutationObserver(function(mutations, obs) {
+        let newInfoBox = doc.getElementById('zotero-editpane-info-box');
+        if (newInfoBox) {
+            obs.disconnect(); // stop observing once we have the container
+            attachHideObserver(newInfoBox);
+        }
+    });
+    observer.observe(doc.body, { childList: true, subtree: true });
+} else {
+    attachHideObserver(infoBox);
+}
+
+function attachHideObserver(container) {
+    // This function hides the target row now and whenever new rows are added
+    function hideDictionaryTitle() {
+        let rows = container.querySelectorAll('.meta-row');
+        for (let row of rows) {
+            if (row.textContent.trim() === 'Dictionary Title') {
+                row.hidden = true;
+                break;
+            }
+        }
+    }
+    
+    // Hide immediately if already present
+    hideDictionaryTitle();
+    
+    // Watch for future changes (e.g., when user selects a different item)
+    let mutationObserver = new MutationObserver(function(mutations) {
+        hideDictionaryTitle();
+    });
+    mutationObserver.observe(container, { childList: true, subtree: true });
+}
+```
+>>>>>>> last-achievements

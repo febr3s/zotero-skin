@@ -62,7 +62,7 @@ MakeItRed = {
 		'troubleshooting',
 		'feedbackPage',
 		'reportErrors',
-		'debug-output-menu',
+		//'debug-output-menu',
 		'menuitem-restart-in-troubleshooting-mode'].forEach(id => {
 			let el = doc.getElementById(id);
 			if (el) el.hidden = true;
@@ -126,49 +126,16 @@ MakeItRed = {
 			}
 		};
 
-		// hide fields from the item box
+		// Hide some items in the info box on the right when an item is selected. We have to use alet targetText = "Dictionary Title";
 		
-		// Inside addToWindow
-		let win = window;
-		let targetText = "Dictionary Title";
+// Plain old polling – hides the field every half second
+setInterval(() => {
+    let rows = window.document.querySelectorAll('#zotero-editpane-info-box .meta-row');
+    for (let row of rows) {
+        if (row.textContent.trim() === 'Dictionary Title') row.hidden = true;
+    }
+}, 50);		
 
-		function hideIt() {
-			let container = win.document.getElementById('zotero-editpane-info-box');
-			if (!container) {
-				Zotero.debug("hideIt: container not found");
-				return;
-			}
-			let rows = container.querySelectorAll('.meta-row');
-			Zotero.debug("hideIt: found " + rows.length + " rows");
-			for (let row of rows) {
-				let text = row.textContent.trim();
-				if (text === targetText) {
-					row.hidden = true;
-					Zotero.debug("Hidden row with text: " + text);
-				}
-			}
-		}
-
-		
-
-		// Run once if container exists
-		if (win.document.getElementById('zotero-editpane-info-box')) {
-			hideIt();
-		} else {
-			Zotero.debug("Initial container not found");
-		}
-
-		// Create observer only once
-		if (!win._hideDictionaryObserver) {
-			win._hideDictionaryObserver = new MutationObserver(() => {
-				Zotero.debug("MutationObserver triggered");
-				hideIt();
-			});
-			win._hideDictionaryObserver.observe(win.document.documentElement, { childList: true, subtree: true });
-			Zotero.debug("Observer attached");
-		} else {
-			Zotero.debug("Observer already exists, not reattaching");
-		}
 
 	},
 	
