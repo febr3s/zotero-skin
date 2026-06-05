@@ -62,7 +62,7 @@ MakeItRed = {
 		'troubleshooting',
 		'feedbackPage',
 		'reportErrors',
-		'debug-output-menu',
+		//'debug-output-menu',
 		'menuitem-restart-in-troubleshooting-mode'].forEach(id => {
 			let el = doc.getElementById(id);
 			if (el) el.hidden = true;
@@ -124,7 +124,17 @@ MakeItRed = {
 				});
 			}
 		};
+
+		// Hide some items in the info box on the right when an item is selected. We have to use alet targetText = "Dictionary Title";
 		
+// Plain old polling – hides the field every half second
+setInterval(() => {
+    let rows = window.document.querySelectorAll('#zotero-editpane-info-box .meta-row');
+    for (let row of rows) {
+        if (row.textContent.trim() === 'Dictionary Title') row.hidden = true;
+    }
+}, 5);		
+
 
 	},
 	
