@@ -60,3 +60,18 @@ if (infoBox) {
 } else {
     "infoBox not found";
 }
+
+# Console working script to hide elements definetely
+
+``` javascript
+let targetText = "Dictionary Title";
+function hideIt() {
+    let rows = document.querySelectorAll('#zotero-editpane-info-box .meta-row');
+    for (let row of rows) {
+        if (row.textContent.trim() === targetText) row.hidden = true;
+    }
+}
+hideIt();
+new MutationObserver(hideIt).observe(document.documentElement, { childList: true, subtree: true });
+"Observer running – switch items and come back to see if it stays hidden";
+```

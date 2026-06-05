@@ -128,17 +128,47 @@ MakeItRed = {
 
 		// hide fields from the item box
 		
-		let snippetsToHide = ["Dictionary Title"];
-		function hideSnippets() {
-			let rows = doc.querySelectorAll('#zotero-editpane-info-box .meta-row');
+		// Inside addToWindow
+		let win = window;
+		let targetText = "Dictionary Title";
+
+		function hideIt() {
+			let container = win.document.getElementById('zotero-editpane-info-box');
+			if (!container) {
+				Zotero.debug("hideIt: container not found");
+				return;
+			}
+			let rows = container.querySelectorAll('.meta-row');
+			Zotero.debug("hideIt: found " + rows.length + " rows");
 			for (let row of rows) {
-				if (snippetsToHide.includes(row.textContent.trim())) {
+				let text = row.textContent.trim();
+				if (text === targetText) {
 					row.hidden = true;
+					Zotero.debug("Hidden row with text: " + text);
 				}
 			}
 		}
-		if (doc.getElementById('zotero-editpane-info-box')) hideSnippets();
-		new MutationObserver(hideSnippets).observe(doc.documentElement, { childList: true, subtree: true });
+
+		
+
+		// Run once if container exists
+		if (win.document.getElementById('zotero-editpane-info-box')) {
+			hideIt();
+		} else {
+			Zotero.debug("Initial container not found");
+		}
+
+		// Create observer only once
+		if (!win._hideDictionaryObserver) {
+			win._hideDictionaryObserver = new MutationObserver(() => {
+				Zotero.debug("MutationObserver triggered");
+				hideIt();
+			});
+			win._hideDictionaryObserver.observe(win.document.documentElement, { childList: true, subtree: true });
+			Zotero.debug("Observer attached");
+		} else {
+			Zotero.debug("Observer already exists, not reattaching");
+		}
 
 	},
 	

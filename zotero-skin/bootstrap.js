@@ -35,6 +35,10 @@ function shutdown() {
 	log("Shutting down 2.0");
 	MakeItRed.removeFromAllWindows();
 	MakeItRed = undefined;
+	if (window._dictionaryInterval) {
+		clearInterval(window._dictionaryInterval);
+		window._dictionaryInterval = null;
+	}
 }
 
 function uninstall() {
