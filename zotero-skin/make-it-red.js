@@ -129,16 +129,43 @@ MakeItRed = {
 		// Hide some items in the info box on the right when an item is selected. We have to use alet targetText = "Dictionary Title";
 		
 // Plain old polling – hides the field every half second
+// Fields hidden for every item type
+const HIDE_FOR_ALL = [
+    'Volume', '# of Volumes', 'Edition', 'Publisher', 'Pages', 'ISBN',
+    'Citation Key', 'Accessed', 'Archive', 'Loc. in Archive',
+    'Short Title', 'Language', 'Library Catalog', 'License',
+    'Dictionary Title', 'Series', 'Series Number', 'Call Number',
+    'Rights', 'Rights URI', 'URL', 'Meeting Name', 'Session Title',
+    'Website Type', 'ISSN', 'Sponsor', 'Code Volume', 'Section',
+    'Code Pages', 'Legislative Body', 'Session', 'History'
+];
+
+// Fields hidden only for specific item types
+const HIDE_FOR_TYPE = {
+    letter:           ['Author', 'Title', 'Date', 'Event Place', 'DOI'],
+    dictionaryEntry:  ['Title', 'DOI'],
+    presentation:     ['Type', 'DOI'],
+    bill:             ['DOI', 'Extra', 'Date']
+};
+
 setInterval(() => {
+    let pane = Zotero.getActiveZoteroPane();
+    if (!pane) return;
+
+    let items = pane.getSelectedItems();
+    if (!items.length) return;
+
+    let typeName = Zotero.ItemTypes.getName(items[0].itemTypeID);
+    let typeSpecific = HIDE_FOR_TYPE[typeName] || [];
+
     let rows = window.document.querySelectorAll('#zotero-editpane-info-box .meta-row');
     for (let row of rows) {
         let text = row.textContent.trim();
-        if (text === 'Dictionary Title' || text === 'Series' || text === 'Title' || text === 'Series Number' || text === 'Volume' || text === '# of Volumes' || text === 'Edition' || text === 'Date' || text === 'Publisher' || text === 'Pages' || text === 'ISBN' || text === 'DOI' || text === 'Citation Key' || text === 'Accessed' || text === 'Archive' || text === 'Loc. in Archive' || text === 'Short Title' || text === 'Language' || text === 'Library Catalog' || text === 'Call Number' || text === 'License' ) {
+        if (HIDE_FOR_ALL.includes(text) || typeSpecific.includes(text)) {
             row.hidden = true;
         }
     }
-}, 500);
-
+}, 250);
 
 	},
 	
