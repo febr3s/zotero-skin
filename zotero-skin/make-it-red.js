@@ -133,7 +133,7 @@ setInterval(() => {
     let rows = window.document.querySelectorAll('#zotero-editpane-info-box .meta-row');
     for (let row of rows) {
         let text = row.textContent.trim();
-        if (text === 'Dictionary Title' || text === 'Series' || text === 'Title' || text === 'Series Number') {
+        if (text === 'Dictionary Title' || text === 'Series' || text === 'Title' || text === 'Series Number' || text === 'Volume' || text === '# of Volumes' || text === 'Edition' || text === 'Date' || text === 'Publisher' || text === 'Pages' || text === 'ISBN' || text === 'DOI' || text === 'Citation Key' || text === 'Accessed' || text === 'Archive' || text === 'Loc. in Archive' || text === 'Short Title' || text === 'Language' || text === 'Library Catalog' || text === 'Call Number' || text === 'License' ) {
             row.hidden = true;
         }
     }
