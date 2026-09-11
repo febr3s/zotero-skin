@@ -132,9 +132,12 @@ MakeItRed = {
 setInterval(() => {
     let rows = window.document.querySelectorAll('#zotero-editpane-info-box .meta-row');
     for (let row of rows) {
-        if (row.textContent.trim() === 'Dictionary Title') row.hidden = true;
+        let text = row.textContent.trim();
+        if (text === 'Dictionary Title' || text === 'Series' || text === 'Title' || text === 'Series Number') {
+            row.hidden = true;
+        }
     }
-}, 50);		
+}, 500);
 
 
 	},
