@@ -157,7 +157,7 @@ MakeItRed = {
 			let el = doc.getElementById(id);
 			if (el) el.style.display = "none";
 		});
-		// Hide some items in the right-click context menu
+		// Hide some items in the  context menu
 		setInterval(() => {
 			let pane = Zotero.getActiveZoteroPane();
 			if (!pane) return;

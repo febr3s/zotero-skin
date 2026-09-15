@@ -5,3 +5,7 @@
 window[data-green-instead] .row {
 	color: green;
 }
+
+#post-upgrade-banner {
+    display: none !important;
+}

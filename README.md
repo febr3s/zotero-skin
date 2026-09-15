@@ -115,7 +115,31 @@ let el = document.getElementById('menu_Tools');
 el ? el.getAttribute('label') : 'not found';
 ```
 
-> **Important:** Do **not** use `return` in these snippets – the tool automatically displays the last evaluated expression.
+**Finding Elements by Visible Text**
+
+```javascript
+let needle = "You've been upgraded"; // <-- edit this
+let walker = document.createTreeWalker(
+    document.documentElement,
+    NodeFilter.SHOW_TEXT
+);
+let hits = [];
+while (walker.nextNode()) {
+    let text = walker.currentNode.nodeValue;
+    if (text && text.includes(needle)) {
+        let el = walker.currentNode.parentElement;
+        hits.push({
+            tag: el.tagName,
+            id: el.id,
+            class: el.className,
+            parentTag: el.parentElement?.tagName,
+            parentId: el.parentElement?.id,
+            parentClass: el.parentElement?.className
+        });
+    }
+}
+JSON.stringify(hits, null, 2);
+```
 
 ---
 
