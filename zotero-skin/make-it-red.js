@@ -147,7 +147,17 @@ MakeItRed = {
 			presentation:     ['Type', 'DOI'],
 			bill:             ['DOI', 'Extra', 'Date']
 		};
-
+		// Hide some items in the toolbar
+		[
+			"zotero-tb-add",
+			"zotero-tb-note-add",
+			"zotero-tb-lookup",
+			"zotero-tb-attachment-add"
+		].forEach(id => {
+			let el = doc.getElementById(id);
+			if (el) el.style.display = "none";
+		});
+		// Hide some items in the right-click context menu
 		setInterval(() => {
 			let pane = Zotero.getActiveZoteroPane();
 			if (!pane) return;
