@@ -134,8 +134,7 @@ MakeItRed = {
 			'Volume', '# of Volumes', 'Edition', 'Publisher', 'Pages', 'ISBN',
 			'Citation Key', 'Accessed', 'Archive', 'Loc. in Archive',
 			'Short Title', 'Language', 'Library Catalog', 'License',
-			'Dictionary Title', 'Series', 'Series Number', 'Call Number',
-			'Rights', 'Rights URI', 'URL', 'Meeting Name', 'Session Title',
+			'Dictionary Title', 'Series', 'Series Number', 'Call Number', 'Rights URI', 'Meeting Name', 'Session Title',
 			'Website Type', 'ISSN', 'Sponsor', 'Code Volume', 'Section',
 			'Code Pages', 'Legislative Body', 'Session', 'History'
 		];
